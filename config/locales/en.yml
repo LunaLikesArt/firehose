@@ -21,3 +21,9 @@
 
 en:
   hello: "Hello world"
+  shared:
+    header:
+      circle_text_html: "<br/>You know<br />you need<br/>to code"
+      fishies: "All the little fish go blu blu blu"
+      contribute: "Contribute"
+      about: "About"
