@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Splurty</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
   <header>
   	<div class="col-xs-3">
@@ -19,7 +21,7 @@
 		</div>
   	</div>
   	<div class="col-xs-4 slogan">
-  		Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn Unicorn 
+  		Little fish go blu blu blu
   	</div>
   	<div class="col-xs-5 links">
   		<%= link_to 'Contribute', '#' %>
@@ -29,7 +31,24 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+	<%= yield %>
+</div>
+
+ <div class="footer">
+      <div class="container">
+      	<div class="col-xs-6">
+      		<%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+      	</div>
+      <div class="col-xs-6 footer-blurb">
+        Proudly hacked in Boston, MA by Jenny   
+	  </div>
+ </div>
+</div>
+
+
+
 
 </body>
+
 </html>
