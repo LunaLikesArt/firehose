@@ -29,12 +29,13 @@
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 	font-style: bold;	
 	padding-top: 33px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .links {
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 	padding-top: 33px;
+  text-align: right;
   }
 
 .links a {
@@ -43,7 +44,6 @@
 	border-bottom: 1px solid #dfdfdf;
 	font-family: 'exothin', cursive;
 	font-weight: bold;
-  margin-right: 17px;
 }
 
 
@@ -72,6 +72,13 @@ h2 {
   font-size: 20px;
 }
 
+h2 span {
+  color: #dddddd;
+  font-family: 'exothin', cursive;
+  font-weight: bold;
+  font-size: 17px;
+}
+
 
 .next-quote {
 	color: #ED053B;
@@ -88,6 +95,11 @@ h2 {
 	font-size: 13px;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
 
 .logo:hover {
   text-decoration: none;
@@ -98,6 +110,12 @@ h2 {
 }
 
 
+.modal {
+font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+}
 
 
+::selection {
+  background-color: #ED053B;
+}
 

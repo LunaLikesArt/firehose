@@ -12,23 +12,24 @@
   <header>
   	<div class="col-xs-3">
       <%= link_to root_path, class: 'logo' do %>
-  		<div class="circle">
-		  <br />
-		  You know
-		  <br />
-		  you need
-		  <br />
-		  to code
-		</div>
-    <% end %>
+  		  <div class="circle">
+		      <br />
+		      You know
+  		    <br />
+  		    you need
+  		    <br />
+  		    to code
+		    </div>
+      <% end %>
+    </div>
+  	<div class="col-sm-4 hidden-xs slogan">
+  		Splurty, the Wisdom J.enerator
   	</div>
-  	<div class="col-xs-4 slogan">
-  		Wisdom J.enerator
-  	</div>
-  	<div class="col-xs-5 links">
+  	<div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
           <!-- Button trigger modal -->
-  <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-  		<%= link_to 'About', about_path %>
+      <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+      &nbsp;&nbsp;
+  	 <%= link_to 'About', about_path %>
   	</div>
   </header>
 
@@ -45,8 +46,9 @@
       
         <%= simple_form_for Quote.new do |f| %>
         <div class="modal-body">
-            <%= f.input :saying %>
-            <%= f.input :author %>
+            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Like they say in Silicon Valley, it's not a bug, it's a feature." %>
+            <br />
+            <%= f.input :author, label: "Who is the author of this quote?", placeholder: 'Saul Goodman' %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -75,10 +77,10 @@
 
  <div class="footer">
       <div class="container">
-      	<div class="col-xs-6">
+      	<div class="col-xs-12 col-sm-6">
       		<%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
       	</div>
-      <div class="col-xs-6 footer-blurb">
+      <div class="col-xs-12 col-sm-6 footer-blurb">
         Proudly hacked in Boston by Jenny   
 	  </div>
  </div>
