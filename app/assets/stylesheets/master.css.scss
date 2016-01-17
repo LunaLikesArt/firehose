@@ -1,49 +1,47 @@
-
 .clear {
 	clear:both;
 }
 
 .circle {
-	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-
-    font-weight:bold;
-    font-style: italic;
-    position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
-    margin: 10px 10px;
-    text-align: center;
-    color: #FFF;
-    font-size: 10px;
-    line-height: 16px;
-    cursor: pointer;
-    transform:rotate(11deg);
-    -ms-transform:rotate(11deg); /* IE 9 */
-    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+	font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #f84342;
+  border: 1px solid #F7F7F7;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 16px;
+  cursor: pointer;
+  transform:rotate(11deg);
+  -ms-transform:rotate(11deg); /* IE 9 */
+  -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
 .slogan {
-	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-	font-style: bold;	
-	padding-top: 33px;
-  font-size: 17px;
+  font-family: 'amatic_scregular';  
+  padding-top: 33px;
+  font-size: 30px;
+  font-weight: bold;
+
 }
 
 .links {
-	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-	padding-top: 33px;
+	padding-top: 40px;
+  padding-right: 50px;
   text-align: right;
   }
 
 .links a {
 	color: #5D5E5E;
-	font-size: 17px;
+	font-size: 15px;
 	border-bottom: 1px solid #dfdfdf;
-	font-family: 'exothin', cursive;
-	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -58,37 +56,38 @@ hr {
 
 
 h1 {
-  font-family: 'exothin', cursive;
+  font-family: 'amatic_scregular';  
   font-weight: 600;
-  letter-spacing: -1.5px;
-  font-weight: bold;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 h2 {
-  font-family: 'exothin', cursive;
+  font-family: 'amatic_scregular';
   font-weight: 600;
-  letter-spacing: -1.5px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h2 span {
-  color: #dddddd;
-  font-family: 'exothin', cursive;
+  color: #5D5E5E;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 16px;
 }
 
-
+h3 {
+  color: #5D5E5E;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
 .next-quote {
 	color: #ED053B;
-	font-family: 'exothin', cursive;
-	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
 }
 
 
 .footer-blurb {
- 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+ 	font-family: 'Raleway', sans-serif;
 	color: #5D5E5E;
 	font-style: italic;
 	text-align: right;
@@ -106,12 +105,13 @@ h2 span {
 }
 
 .about {
-  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
 
 .modal {
-font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+font-family: 'Raleway', sans-serif; 
 }
 
 
