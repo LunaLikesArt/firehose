@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Quote.create(saying: "Luna Loves Art", author: "luna")
+Quote.create(saying: "Luna Really Loves Art", author: "luna")
+Quote.create(saying: "Luna ist besondere!", author: "Duckie")
+Quote.create(id: 6, saying: "Sie macht alle wünderbar fühlen!", author: "Duckie")
